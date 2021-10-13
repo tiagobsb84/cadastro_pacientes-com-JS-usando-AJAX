@@ -80,3 +80,62 @@ th {
   background-color: red;
   color: #fff;
 }
+
+section h2 {
+  margin-top: 1em;
+  color: darkblue;
+  font-size: 3em;
+  display: block;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.5em;
+}
+
+/* formulario */
+label {
+  color: #555;
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+.campo {
+  margin: 0;
+  padding-bottom: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.7em;
+  width: 100%;
+}
+
+.campo-medio {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.grupo {
+  width: 32%;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+button {
+  padding: 0.5em 2em;
+  border: 0;
+  border-bottom: 3px solid;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 0;
+  margin-top: -3px;
+  color: #fff;
+  background-color: #0c8cd3;
+  border-color: #04324c;
+  width: 20%;
+  display: block;
+  clear: both;
+  margin: 10px 0px;
+}
+
+button:active {
+  margin-top: 0px;
+  border: 0;
+}

@@ -74,6 +74,62 @@
           </tbody>
         </table>
       </section>
+
+      <section class="container">
+        <div>
+          <h2 class="tituloFormulario">Adicionar o novo paciente</h2>
+          <hr />
+        </div>
+        <form class="formAdicionar">
+          <div>
+            <label for="nome">Nome:</label>
+            <input
+              class="campo"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome"
+            />
+          </div>
+
+          <div class="grupo">
+            <label for="peso">Peso:</label>
+            <input
+              class="campo campo-medio"
+              type="text"
+              name="peso"
+              id="peso"
+              placeholder="Digite peso"
+            />
+          </div>
+
+          <div class="grupo">
+            <label for="altura">Altura:</label>
+            <input
+              class="campo campo-medio"
+              type="text"
+              name="altura"
+              id="altura"
+              placeholder="Digite altura"
+            />
+          </div>
+
+          <div class="grupo">
+            <label for="gordura">% de Gordura:</label>
+            <input
+              class="campo campo-medio"
+              type="text"
+              name="gordura"
+              id="gordura"
+              placeholder="%gordura"
+            />
+          </div>
+
+          <button id="addPaciente" class="botao bto-principal">
+            Adicionar
+          </button>
+        </form>
+      </section>
     </main>
 
     <script src="./main.js"></script>
