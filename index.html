@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Pacientes Nutrição</title>
-    <link rel="icon" href="./favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -15,6 +15,15 @@
     <main>
       <section class="container">
         <h2>Meus pacientes</h2>
+        <div class="pesquisar">
+          <label for="filtra">Buscar:</label>
+          <input
+            id="filtra-tabela"
+            type="text"
+            name="filtra"
+            placeholder="Digite o nome"
+          />
+        </div>
         <table>
           <thead>
             <tr>
@@ -122,5 +131,7 @@
     <script src="js/calcula-imc.js"></script>
     <script src="js/form.js"></script>
     <script src="js/erros.js"></script>
+    <script src="js/remove-pacientes.js"></script>
+    <script src="js/filtra-paciente.js"></script>
   </body>
 </html>

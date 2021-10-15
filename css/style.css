@@ -143,3 +143,33 @@ button:active {
 #mensagens-erro {
   color: red;
 }
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.8s;
+}
+
+#filtra-tabela {
+  width: 200px;
+  height: 32px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.pesquisar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pesquisar label {
+  margin-right: 6px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.invisivel {
+  display: none;
+}
